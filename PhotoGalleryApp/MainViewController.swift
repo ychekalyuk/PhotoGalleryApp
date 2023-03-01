@@ -23,8 +23,8 @@ class MainViewController: UIViewController {
         collectionView.register(
             PhotosCollectionViewCell.self,
             forCellWithReuseIdentifier: PhotosCollectionViewCell.identifier)
-        collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.dataSource = self
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
         return collectionView
     }()
     
